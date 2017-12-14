@@ -1,0 +1,26 @@
+.game-window>.jumbotron {
+	height: 500px;
+	margin-top: 20px;
+	position: relative;
+}
+.jumbotron {
+	padding: 0;
+	overflow: hidden;
+}
+.jumbotron img {
+	position: absolute;
+	bottom:0;
+	margin: 5px 0 5px 10px;
+}
+.dashboard {
+	position: absolute;
+	top:0;
+	right: 0;
+	padding: 5px;
+}
+#btc {
+	color:#FF9900;
+}
+.btc>i {
+	position: absolute;
+}

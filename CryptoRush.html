@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>CryptoRush Game</title>
+	<script type="text/javascript" src="js/jquery-3.2.1.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<script type="text/javascript" src="js/popper.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/fontawesome-all.min.js"></script>
+	<script type="text/javascript" src="js/ilya.js"></script>
+	<script type="text/javascript" src="js/point.min.js"></script>
+	<script type="text/javascript" src="js/alex.js"></script>
+	
+
+	<link rel="stylesheet" type="text/css" href="css/alex.css">
+	<link rel="stylesheet" type="text/css" href="css/ilya.css">
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="row">
+			<nav class="navbar navbar-expand-lg navbar-dark bg-dark col-lg-12">
+				<a class="navbar-brand" href="#">CryptoRush</a>
+			</nav>
+		</div>
+	</div>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="row justify-content-center">
+					<div id="game" class="align-self-center game-window">
+						<div id="gamePlace" class="jumbotron" style="width: 800px;">
+							<div id="btc"> </div>
+							<img id="hero" src="img/bb8.svg" style="left:200px;transform:rotate(0deg); height:120px;width:80px;">
+							<div class="dashboard">Score: 00001btc</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script>
+		var comp = +prompt("Введите уровень сложности от 1 до 10");
+		gameCryptoRush.newGame(comp);
+	</script>
+</body>
+</html>
